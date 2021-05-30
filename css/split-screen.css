@@ -1,22 +1,117 @@
+
+.title {
+ text-align: center;   
+ color: white;
+ font-family: 'Ruda', sans-serif;
+ font-size: 4em;
+}
+
+p, h2 {
+font-family: 'Ruda', sans-serif;   
+color: white;
+}
+
+.dishes {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.desserts {
+    background-color: #327CBF; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
+  .service {
+    background-color: #FF6610; /* Orange */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+
 .split {
   height: 100%;
   width: 50%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
 }
 
+
+.middle {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
+  .mile {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+
 .left {
   left: 0;
-  background-color: #111;
+  background-color: #327CBF;
 }
 
 .right {
   right: 0;
-  background-color: red;
+  background-size: cover;
+  background-image: url("images/cody-berg-1IIYYWeS6Yg-unsplash.jpg");
+  background-color: #cccccc;
 }
+
+.first {
+    left: 0;
+    background-color: pink;
+  }
+  
+  .second {
+    right: 0;
+    background-color: #125211;
+  }
+
+
+  .third {
+    left: 0;
+    background-color: #E570BE;
+  }
+  
+  .fourth {
+    right: 0;
+    background-color: blue;
+  }
 
 .centered {
   position: absolute;
@@ -26,7 +121,45 @@
   text-align: center;
 }
 
+.bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .bottom-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
 .centered img {
-  width: 150px;
-  border-radius: 50%;
+position: relative;
+right: 60%;
+width: 310%;   
+  height:auto;
+  border-radius: 0%;
 }
+
+.bottom img {
+    position: relative;
+    right: 130%;
+    width: 350%;   
+    height: auto;
+    border-radius: 0%;
+  }
+
+
+  .bottom-middle img {
+    position: relative;
+    right: 120%;
+    width: 350%;   
+    height: auto;
+    border-radius: 0%;
+  }
