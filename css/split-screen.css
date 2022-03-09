@@ -4,6 +4,7 @@
  color: white;
  font-family: 'Ruda', sans-serif;
  font-size: 4em;
+ 
 }
 
 p, h2 {
@@ -21,6 +22,7 @@ color: white;
   display: inline-block;
   font-size: 16px;
   border-radius: 30px;
+  overflow: hidden;
 }
 
 .desserts {
@@ -33,6 +35,7 @@ color: white;
     display: inline-block;
     font-size: 16px;
     border-radius: 30px;
+    overflow: hidden;
   }
 
   .service {
@@ -45,6 +48,7 @@ color: white;
     display: inline-block;
     font-size: 16px;
     border-radius: 30px;
+    overflow: hidden;
   }
 
 .split {
@@ -55,6 +59,7 @@ color: white;
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+  overflow: hidden;
 }
 
 
@@ -66,6 +71,7 @@ color: white;
     top: 100%;
     overflow-x: hidden;
     padding-top: 20px;
+    overflow: hidden;
   }
 
 
@@ -77,12 +83,14 @@ color: white;
     top: 200%;
     overflow-x: hidden;
     padding-top: 20px;
+    overflow: hidden;
   }
 
 
 .left {
   left: 0;
   background-color: #327CBF;
+  overflow: hidden;
 }
 
 .right {
@@ -90,27 +98,32 @@ color: white;
   background-size: cover;
   background-image: url("images/cody-berg-1IIYYWeS6Yg-unsplash.jpg");
   background-color: #cccccc;
+  overflow: hidden;
 }
 
 .first {
     left: 0;
     background-color: pink;
+    overflow: hidden;
   }
   
   .second {
     right: 0;
     background-color: #125211;
+    overflow: hidden;
   }
 
 
   .third {
     left: 0;
     background-color: #E570BE;
+    overflow: hidden;
   }
   
   .fourth {
     right: 0;
     background-color: blue;
+    overflow: hidden;
   }
 
 .centered {
